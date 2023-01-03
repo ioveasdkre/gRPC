@@ -1,0 +1,38 @@
+創建 空白方案
+創建 Proto資料夾
+創建 Client、Server專案(.NET Framework)
+
+安裝套件(Client、Server專案都要裝)
+Grpc
+Grpc.Tools
+Google.Protobuf
+
+安裝完以後卸載 Client、Server專案
+然後在卸載的專案中找到
+<ItemGroup>
+  <Compile Include="Program.cs" />
+  <Compile Include="Properties\AssemblyInfo.cs" />
+</ItemGroup>
+
+在上方程式碼之前加入
+<ItemGroup>
+  <Protobuf Include="../*.Proto" OutputDir="%(RelativePath)Models/"/>
+</ItemGroup>
+
+完成以後重新載入 Client、Server專案
+
+client、server專案中創建
+Models資料夾
+
+建置專案確定正常運作
+
+
+
+在 proto資料夾創建文字檔
+Dummy.proto
+
+並輸入 Code(請參檔案內容)測試是否 Client、Server專案 自動產生檔案
+
+專案重新建置 此時視覺上看不見檔案 但實際上檔案已產生
+
+請點擊 專案總攬上方的 顯示所有檔案即可於 Models看見

@@ -1,0 +1,28 @@
+Clément Jean 講師資源
+GitHub
+https://github.com/Clement-Jean
+Clément Jean個人網站
+https://clement-jean.github.io/
+Linkedin
+https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGXs-CLBbZqDgAAAYVWa2kwvIEJv17MWtYV8bmp7JiWOigpkQWfjfUtXisk8t2GU8ANjug-Bx7Fn0_VP5siyUMZCr6AdsJEEyVEE6k0CHSqvhoqNjMtViPjZHtDRIHaQb-DTJM=&original_referer=https://www.udemy.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fclement-jean%2F
+
+
+先決條件
+本課程作為幾個先決條件：
+
+- 對C#以及如何設置工作環境有最低限度的瞭解。我不會詳細解釋如何使用我正在使用的 C# 語言功能。
+
+- 需要瞭解協定緩衝區，因為 gRPC 依賴於它進行數據序列化，我們將在課程中編寫一些 Protobuf 架構。
+
+-> 請務必查看獎金講座（第 11 節）以找到我的協議緩衝區課程的連結
+
+
+代碼下載
+請在 https://clement-jean.github.io/code_download_for_grpc_csharp/ 找到獲取代碼的說明。
+
+如果您有任何問題，請隨時與我聯繫。我的電子郵件位址可以在這裡找到：https://clement-jean.github.io/about/
+
+祝你學習愉快！
+
+此講座的資源
+https://clement-jean.github.io/code_download_for_grpc_csharp/

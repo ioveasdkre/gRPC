@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAD9C4AD-A9F4-41E0-9BBB-4E35621C2FCD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chapter</RootNamespace>
+    <AssemblyName>Chapter</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="EP03_[Theory]gRPC_InternalsDeepDive\08_ProtocolBuffersAndLanguageInteroperability\README.md" />
+    <None Include="EP03_[Theory]gRPC_InternalsDeepDive\10_4TypesOf_gRPC_APIs\README.md" />
+    <None Include="EP03_[Theory]gRPC_InternalsDeepDive\13_gRPC_VS_REST\README.md" />
+    <None Include="EP03_[Theory]gRPC_InternalsDeepDive\14_SectionSummary-whyUse_gRPC\README.md" />
+    <None Include="EP03_[Theory]gRPC_InternalsDeepDive\README.md" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EP03_[Theory]gRPC_InternalsDeepDive\08_ProtocolBuffersAndLanguageInteroperability\FileBytesPK.png" />
+    <Content Include="EP03_[Theory]gRPC_InternalsDeepDive\10_4TypesOf_gRPC_APIs\4TypesOf_gRPC_APIs.png" />
+    <Content Include="EP03_[Theory]gRPC_InternalsDeepDive\10_4TypesOf_gRPC_APIs\BiDirectionalStreaming.png" />
+    <Content Include="EP03_[Theory]gRPC_InternalsDeepDive\10_4TypesOf_gRPC_APIs\ClinetStreaming.png" />
+    <Content Include="EP03_[Theory]gRPC_InternalsDeepDive\10_4TypesOf_gRPC_APIs\ServerStreaming.png" />
+    <Content Include="EP03_[Theory]gRPC_InternalsDeepDive\10_4TypesOf_gRPC_APIs\Unary.png" />
+    <Content Include="EP03_[Theory]gRPC_InternalsDeepDive\13_gRPC_VS_REST\gRPC_VS_REST.png" />
+    <Content Include="EP03_[Theory]gRPC_InternalsDeepDive\14_SectionSummary-whyUse_gRPC\Notes.txt" />
+    <Content Include="EP03_[Theory]gRPC_InternalsDeepDive\14_SectionSummary-whyUse_gRPC\SectionSummary-whyUse_gRPC.png" />
+    <Content Include="說明文件.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
